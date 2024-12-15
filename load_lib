@@ -95,11 +95,9 @@ local function createLoadingUI()
     Icon.Parent = IconContainer
     Icon.BackgroundTransparency = 1
     Icon.Size = UDim2.new(1, 0, 1, 0)
-    if getcustomasset then
-    Icon.Image = getcustomasset("https://cdn-icons-png.flaticon.com/512/2815/2815428.png")
-    else
-        Icon.Image = ""
-    end
+
+    Icon.Image = "rbxassetid://7972073243"
+
     Icon.ImageColor3 = COLORS.ACCENT
     Icon.ImageTransparency = 1
 
